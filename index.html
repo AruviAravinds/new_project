@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <title>Website</title>
+  </head>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      font-family: "Cursive";
+      background-color: lightcyan;
+    }
+    main {
+      display: flex;
+      justify-content: center;
+      height: 40vh;
+      width: 84vw;
+      margin-left: 90px;
+    }
+    img{
+      margin: 20px;
+    }
+    h1 {
+      font-family: Cursive;
+      font-size: 55px;
+      margin-bottom: 10px;
+    }
+    span {
+      font-family: "Fantasy", Papyrus;
+      margin: 10px;
+    }
+    
+    .box1{
+      margin-left: 90px;
+    }
+    .btn-container {
+      padding: 10px 0px;
+      display: flex;
+      justify-content: space-between;
+      margin: 10px;
+    }
+    button {
+      border-radius: 7px;
+      border: 1px solid #000;
+      padding: 10px;
+      padding: 10px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2),
+        0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12);
+      width: 47%;
+    }
+    .btn-blue {
+      border: none !important;
+      background-color: #037dd6;
+      color: white;
+      color: #fff;
+    }
+    .btn-regular {
+      background-color: white;
+    }
+
+  </style>
+  <body>
+    <main>
+      <div class="box">
+        <h1>Transform your Satellite Image</h1>
+        <span>Upload the concatenated satellite image and corresponding map image and obtain the more clear map image</span>
+        <div class="btn-container">
+          <button class="btn-blue">Upload Image</button>
+          <button class="btn-regular">Get Output</button>
+        </div>
+      </div>
+      
+    </main>
+    <div class="box1">
+      <img
+        src="https://www.arcgis.com/sharing/content/items/10df2279f9684e4a9f6a7f08febac2a9/info/thumbnail/thumbnail1584118328864.jpeg?w=400"
+      />
+      <img
+        src="https://www.arcgis.com/sharing/content/items/10df2279f9684e4a9f6a7f08febac2a9/info/thumbnail/thumbnail1584118328864.jpeg?w=400"
+      />
+      <img
+        src="https://www.arcgis.com/sharing/content/items/10df2279f9684e4a9f6a7f08febac2a9/info/thumbnail/thumbnail1584118328864.jpeg?w=400"
+      />
+    </div>
+  </body>
+</html>
