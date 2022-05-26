@@ -38,7 +38,12 @@
     }
     
     .box1{
-      margin-left: 90px;
+        display: flex;
+        justify-content: center;
+    }
+    img{
+        height:256px;
+        width: 256px;
     }
     .btn-container {
       padding: 10px 0px;
@@ -76,7 +81,10 @@
         <h1>Transform your Satellite Image</h1>
         <span>Upload the concatenated satellite image and corresponding map image and obtain the more clear map image</span>
         <div class="btn-container">
-          <button class="btn-blue">Upload Image</button>
+            <form action="upload_file.py" method="post">
+                <input type="file" id="myFile" name="filename">
+                <input type="submit">
+              </form>
           <button class="btn-regular">Get Output</button>
         </div>
       </div>

@@ -66,7 +66,7 @@ def preprocess_data(data):
     return [X1, X2]
 
 # dataset path
-ix = 5
+ix = 10
 path = 'C:/maps/val/'+ str(int(ix)) +'.jpg'
 # load dataset
 
